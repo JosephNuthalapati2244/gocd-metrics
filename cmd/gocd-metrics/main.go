@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"github.com/sirupsen/logrus"
 	"log"
 	"os"
 	"time"
@@ -45,6 +46,7 @@ func main() {
 			if err := observe.UpdateGocdMetrics(&metrics, gocdClient); err != nil {
 				log.Print(err)
 			}
+			logrus.Info("Sending new metrics from GoCD to Prometheus...")
 			observe.UpdatePrometheus(metrics)
 			time.Sleep(time.Duration(10 * time.Second))
 		}

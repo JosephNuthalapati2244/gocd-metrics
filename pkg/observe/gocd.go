@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/ashwanthkumar/go-gocd"
+	"github.com/JosephNuthalapati2244/go-gocd"
 	"github.com/parnurzeal/gorequest"
 )
 
@@ -44,7 +44,7 @@ func UpdateGocdMetrics(metrics *GocdMetrics, gocd gocd.Client) error {
 		return err
 	}
 	for _, pipelineName := range pipelineNames {
-		history, err := gocd.GetPipelineHistoryPage(pipelineName, 0)
+		history, err := gocd.GetPipelineHistoryPage(pipelineName)
 		if err != nil {
 			return err
 		}
