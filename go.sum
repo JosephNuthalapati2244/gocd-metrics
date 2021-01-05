@@ -1,5 +1,7 @@
 github.com/JosephNuthalapati2244/go-gocd v0.0.0-20201231094315-768f02cc7d42 h1:NOvB52cMG+tlyqtnKbqB4eG8la6cZqYwmWrXlzy0pUs=
 github.com/JosephNuthalapati2244/go-gocd v0.0.0-20201231094315-768f02cc7d42/go.mod h1:JhrlgQ97WJZGQrc2wqOZJa1sIK74fg6yXU48ZCyndg4=
+github.com/JosephNuthalapati2244/go-gocd v0.0.0-20210105104843-e924d70230ae h1:jatnt5tQIZNB4BqndA2U5R2QPFYv6+/vwH+SdW7WSlY=
+github.com/JosephNuthalapati2244/go-gocd v0.0.0-20210105104843-e924d70230ae/go.mod h1:JhrlgQ97WJZGQrc2wqOZJa1sIK74fg6yXU48ZCyndg4=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc h1:cAKDfWh5VpdgMhJosfJnn5/FoN2SRZ4p7fJNX58YPaU=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf h1:qet1QNfXsQxTZqLG4oE62mJzwPIB8+Tee4RNCL9ulrY=

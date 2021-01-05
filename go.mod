@@ -3,7 +3,7 @@ module github.com/cz8s/gocd-metrics
 go 1.15
 
 require (
-	github.com/JosephNuthalapati2244/go-gocd v0.0.0-20201231094315-768f02cc7d42
+	github.com/JosephNuthalapati2244/go-gocd v0.0.0-20210105104843-e924d70230ae
 	github.com/elazarl/goproxy v0.0.0-20201021153353-00ad82a08272 // indirect
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
 	github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c // indirect
