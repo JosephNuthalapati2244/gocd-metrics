@@ -3,7 +3,7 @@ module github.com/cz8s/gocd-metrics
 go 1.15
 
 require (
-	github.com/JosephNuthalapati2244/go-gocd v0.0.0-20210105131501-4728951dd3ad
+	github.com/JosephNuthalapati2244/go-gocd v0.0.0-20220103093902-ed3269b0e087
 	github.com/elazarl/goproxy v0.0.0-20201021153353-00ad82a08272 // indirect
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
 	github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c // indirect
@@ -15,7 +15,7 @@ require (
 	github.com/facebookgo/subset v0.0.0-20200203212716-c811ad88dec4 // indirect
 	github.com/gorilla/mux v1.7.2
 	github.com/hashicorp/errwrap v1.1.0 // indirect
-	github.com/hashicorp/go-multierror v1.1.0 // indirect
+	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/parnurzeal/gorequest v0.2.16
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.0.0
@@ -24,6 +24,6 @@ require (
 	github.com/sirupsen/logrus v1.2.0
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/stretchr/testify v1.3.0
-	golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect
+	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f // indirect
 	moul.io/http2curl v1.0.0 // indirect
 )
